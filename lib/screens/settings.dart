@@ -15,7 +15,8 @@ class _SettingsState extends State<Settings> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFF181333),
-      body: Container(
+      body:
+       Container(
         height:Get.height,
         width:Get.width,
         child:Column(children: [

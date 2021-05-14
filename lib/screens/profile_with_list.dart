@@ -1,4 +1,5 @@
 import 'package:coaches/main.dart';
+import 'package:coaches/screens/profile_main_page.dart';
 import 'package:coaches/widget/button_widget.dart';
 import 'package:coaches/widget/spacer.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +41,7 @@ borderRadius: BorderRadius.circular(25)
                         
                          child: GestureDetector(
                            onTap: (){
-                            //  Get.to(ProfileOption());
+                             Get.to(ProfileMainPage());
                            },
                            child: Center(child:Text("Heading",style: TextStyle(color:Colors.white,fontSize: 15),),)),
                          ),
